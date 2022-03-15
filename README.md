@@ -1,5 +1,5 @@
 # Denoising_on_Mobile_Devices
-Python implementation of the paper "Practical Deep Raw Image Denoising on Mobile Devices". 
+Python implementation of "3.1 The Noise Model" in "Practical Deep Raw Image Denoising on Mobile Devices". 
 
 ## output
 The output will give you 2 images, orignal and noisy.
