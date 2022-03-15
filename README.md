@@ -12,3 +12,4 @@ noisy image
 ## References
 - Yuzhi Wang et al, "Practical Deep Raw Image Denoising on Mobile Devices", ECCV, 2020.
 - Chen Chen et al, "Learning to See in the Dark", in CVPR, 2018.
+- [European Machine Vision Association, "EMVA Standard 1288 : Standard for Characterization of Image Sensors and Cameras", 2021.](https://www.emva.org/)
