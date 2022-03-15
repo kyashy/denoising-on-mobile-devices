@@ -1,8 +1,8 @@
 # Denoising_on_Mobile_Devices
-Python implementation of the paper "Practical Deep Raw Image Denoising on Mobile Devices".
+Python implementation of the paper "Practical Deep Raw Image Denoising on Mobile Devices". 
 
-"notebook.ipynb"：検証の過程を記します。  
-"noise_model.py"：raw画像から、オリジナル画像とノイズ付加画像の2種類を出力します。  
+## output
+The output will give you 2 images, orignal and noisy.
 
 original image  
 <img src="original_image.png" alt="original_image" title="original_image" width="300" height="200">  
