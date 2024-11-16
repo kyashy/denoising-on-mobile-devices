@@ -14,11 +14,11 @@ raw_post = raw.postprocess(use_camera_wb=True, half_size=True, no_auto_bright=Tr
 k = 30         # config
 sigma2 = 30    # config
 
-# オリジナル
+# Original
 original_image = cv2.cvtColor(raw_post, cv2.COLOR_BGR2RGB)
 cv2.imwrite('./results/original_image.png', original_image)
 
-# ノイズ付加
+# Add noise
 noisy_image = noise_model(raw_post, k, sigma2)
 noisy_image = cv2.cvtColor(noisy_image, cv2.COLOR_BGR2RGB)
 cv2.imwrite('./results/noisy_image.png', noisy_image)
